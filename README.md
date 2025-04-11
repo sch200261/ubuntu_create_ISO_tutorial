@@ -45,3 +45,15 @@ mkisofs -iso-level 3 -r -V sblive -cache-inodes -J -l -b isolinux/isolinux.bin -
 ```
 
 完成后于用户目录可以找到对应的ISO镜像
+
+# How to install the modified ISO system
+
+将ISO由U盘引导启动，将进入systemback自带的grub启动界面，此处某些机型会出现文字乱码问题
+第一个选项为Boot此镜像系统，第二个选项为Install此镜像系统
+一般选择第二个，之后按提示操作直到进入分区界面
+删除原有的所有分区，并创建一个新分区，挂载点设置于根目录/
+一定要勾选Transfer user configuration files
+一定要勾选Transfer user configuration files
+一定要勾选Transfer user configuration files
+其他保持默认参数，点击下一步开始安装
+安装完成后重启移除安装介质即可完成镜像系统安装
