@@ -7,7 +7,6 @@ sudo sh -c 'echo "deb [arch=amd64] http://mirrors.bwbot.org/ stable main" > /etc
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key 50B2C005A67B264F
 sudo apt-get update
 sudo apt-get install systemback
-sudo systemback
 ```
 
 选择Live system create
